@@ -1,0 +1,47 @@
+.product-banner {
+    padding: 50px 0;
+}
+.single-product-banner {
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    align-items: center;
+}
+.single-product-banner.laptop1 {
+    background: #665A98;
+    height: 240px;
+}
+.single-product-banner.laptop2 {
+    background: #2980b9;
+    height: 240px;
+}
+.product-text span {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    display: block;
+}
+.product-text h5 {
+    font-size: 28px;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 36px;
+    width: 200px;
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .single-product-banner.laptop1, .single-product-banner.laptop2{
+        height: 200px;
+    }
+
+    .product-banner img{
+        width: 100%;
+    }
+    .product-text h5{
+        font-size: 20px;
+    }
+}
